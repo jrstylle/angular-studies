@@ -1,1 +1,1 @@
-# angular-naruto-lp
+# Angular studies
