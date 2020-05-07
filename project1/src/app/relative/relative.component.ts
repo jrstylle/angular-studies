@@ -1,14 +1,13 @@
 import { Component, OnInit, Input } from '@angular/core';
-
+import { Relative }  from "./relative.model";
 @Component({
   selector: 'app-relative',
   templateUrl: './relative.component.html',
   styleUrls: ['./relative.component.scss']
 })
 export class RelativeComponent implements OnInit {
-  mother: string = "Maria da Conceição";
-  @Input() name: string;
-  @Input() age: number;
+  @Input() relative: Relative
+
   constructor() { }
 
   ngOnInit(): void {

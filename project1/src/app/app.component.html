@@ -1,9 +1,8 @@
 <div class="app">
   <div class="container-fluid">
     <app-header></app-header>
-    <app-relative name="jose" [age]="30"></app-relative>
-    <app-relative name="jose" [age]="30"></app-relative>
-    <app-relative name="jose" [age]="30"></app-relative>
-    <app-relative name="jose" [age]="30"></app-relative>
+    <div class="app__relatives">
+      <app-relative class="app__relatives-item" *ngFor="let relative of relatives" [relative]="relative"></app-relative>
+    </div>
   </div>
 </div>

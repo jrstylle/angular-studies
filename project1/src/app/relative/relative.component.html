@@ -1,4 +1,7 @@
-<div class="app-relative">
-    <p class="app-relative__name"><strong>Name:</strong> {{name}}</p>
-    <p class="app-relative__age"><strong>Age:</strong> {{age}}</p>
+<div class="relative">
+    <span class="relative__badge" *ngIf="relative.hasChild">
+        hasChild
+    </span>
+    <p class="relative__name"><strong>Name:</strong> {{relative.name}}</p>
+    <p class="relative__age"><strong>Age:</strong> {{relative.age}}</p>
 </div>
