@@ -12,5 +12,9 @@ export class RelativeComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  
+  onClick(): void {
+    console.log(this.relative.name);
+  }
 
 }
