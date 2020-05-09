@@ -1,7 +1,7 @@
 
 ![screenshot-angular-studies-project1](https://user-images.githubusercontent.com/6127099/81461155-32106c80-9180-11ea-9d2d-1fd586fead4c.png)
 
-# Project1
+# Project1 -  Naruto Landingpage
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
 
