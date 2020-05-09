@@ -1,8 +1,13 @@
 <div class="app">
-  <div class="container-fluid">
+  <div class="container app-container">
     <app-header></app-header>
-    <div class="app__relatives">
-      <app-relative class="app__relatives-item" *ngFor="let relative of relatives" [relative]="relative"></app-relative>
+    <div class="app-shinobis">
+      <h2 class="app-shinobis__title">Shinobis</h2>
+      <ul class="app-shinobis__list">
+        <li class="app-shinobis__list-item" *ngFor="let shinobi of shinobis">
+          <app-shinobi [shinobi]="shinobi"></app-shinobi>
+        </li>
+      </ul>
     </div>
   </div>
 </div>

@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RelativeComponent } from './relative.component';
+import { ShinobiComponent } from './shinobi.component';
 
-describe('RelativeComponent', () => {
-  let component: RelativeComponent;
-  let fixture: ComponentFixture<RelativeComponent>;
+describe('Shinobi', () => {
+  let component: ShinobiComponent;
+  let fixture: ComponentFixture<ShinobiComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ RelativeComponent ]
+      declarations: [ ShinobiComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(RelativeComponent);
+    fixture = TestBed.createComponent(ShinobiComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

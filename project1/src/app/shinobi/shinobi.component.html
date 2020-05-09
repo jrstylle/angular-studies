@@ -1,0 +1,8 @@
+<div class="shinobi" *ngIf="shinobi" [ngClass]="{'shinobi--lead': shinobi?.isLead}">
+    <span class="shinobi__badge" *ngIf="shinobi?.isLead" >Líder do Time</span>
+    <h2 class="shinobi__name">{{shinobi?.name}}</h2>
+    <p class="shinobi__feature"><strong>Vila:</strong> {{shinobi?.village}}</p>
+    <p class="shinobi__feature" *ngIf="shinobi?.lead"><strong>Líder:</strong> {{shinobi?.lead}}</p>
+    <p class="shinobi__feature" *ngIf="shinobi?.clan"><strong>Clã:</strong> {{shinobi?.clan}}</p>
+    <p class="shinobi__feature" *ngIf="!shinobi?.clan"><strong>Clã:</strong> Não tem clã</p>
+</div>

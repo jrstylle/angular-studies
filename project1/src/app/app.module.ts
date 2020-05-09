@@ -4,13 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './header/header.component';
-import { RelativeComponent } from './relative/relative.component';
+import { ShinobiComponent } from './shinobi/shinobi.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    RelativeComponent
+    ShinobiComponent,
   ],
   imports: [
     BrowserModule,

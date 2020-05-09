@@ -1,6 +1,14 @@
 .app-header{
     width: 100%;
-    border: solid 3px red;
-    margin: 1% 0;
-    padding: 1%;
+    padding: 20px 0;
+    background: url('../../assets/images/naruto-header.png') center left no-repeat, #9d1a1a;
+    background-size: 490px;
+    background-position-y: 0px;
+    box-shadow: 2px 2px 4px 2px #b16f09;
+    &__brand{
+        display: block;
+        width: 100%;
+        max-width: 540px;
+        margin-left: 45%;
+    }
 }

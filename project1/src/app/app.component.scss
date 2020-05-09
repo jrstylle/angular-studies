@@ -1,15 +1,32 @@
 .app{
-    &__relatives{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        &-item{
-            width: 24.25%;
-            &:not(:first-child):not(:nth-child(5n)){
-                margin-left: .5%;
-            }
-            &:not(:last-child):not(:nth-child(4n)){
-                margin-right: .5%;
+    margin-top: 1%;
+    &-shinobis{
+        box-shadow: 2px 8px 4px 2px #b16f09;
+        background: #fff;
+        padding: 2%;
+        margin-bottom: 2%;
+        &__title{
+            color: #000000;
+            font-size: 3rem;
+            line-height: 4rem;
+            border-bottom: solid 2px #000000;
+        }
+        &__list {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            list-style: none;
+            padding: 0;
+            &-item{
+                flex: 24.25% 0;
+                margin-bottom: 1%;
+                &:not(:first-child):not(:nth-child(5n)){
+                    margin-left: .5%;
+                }
+                &:not(:last-child):not(:nth-child(4n)){
+                    margin-right: .5%;
+                }
             }
         }
     }
