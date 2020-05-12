@@ -1,0 +1,15 @@
+.navbar{
+    background: #e91e63;
+}
+.navbar a {
+    color: #fff;
+}
+.navbar a:hover{
+    background: #a01645;
+}
+.navbar .active,
+.navbar .active a:active,
+.navbar .active a:focus
+{
+    background: #a01645;
+}
