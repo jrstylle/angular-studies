@@ -1,4 +1,6 @@
-# Meat - Angular App Starter
+![screenshot-angular-studies-project2](https://user-images.githubusercontent.com/6127099/81731233-071a6700-9465-11ea-8d4b-8391f2dde39a.png)
+
+# Project2
 
 ## 1. Passos para começar
 
