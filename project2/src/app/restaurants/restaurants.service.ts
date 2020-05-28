@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core'
-import { Http } from '@angular/http'
+import { Http, Response } from '@angular/http'
 
 import { Observable } from 'rxjs/Observable'
 import 'rxjs/add/operator/map'
@@ -18,6 +18,11 @@ export class RestaurantsService {
   restaurants(): Observable<Restaurant[]> {
 
     return this.http.get(`${MEAT_API}/restaurants`)
+      .map(response => response.json())
+      .catch(ErrorHandler.handleError)
+  }
+  restaurantById(id: string): Observable<Restaurant> {
+    return this.http.get(`${MEAT_API}/restaurants/${id}`)
       .map(response => response.json())
       .catch(ErrorHandler.handleError)
   }
