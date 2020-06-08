@@ -5,8 +5,10 @@ import { CartItem } from 'app/restaurant-detail/shopping-cart/cart-item.model';
 @Injectable()
 export class OrderService {
   constructor(private shoppingCartService: ShoppingCartService){}
-
-  cartItems(): CartItem[] {
+  itemsValue(): number {
+    return this.shoppingCartService.total();
+  }
+  cartItems(): CartItem[] { 
     return this.shoppingCartService.items;
   }
 
